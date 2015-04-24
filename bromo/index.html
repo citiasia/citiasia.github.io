@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head prefix="og: http://ogp.me/ns fb: http://ogp.me/ns/fb">
+	<title>Citiasia - Bromo VTour 360 Degree</title>
+	<meta property="fb:app_id" content="1450808235151361">
+	<meta property="og:type" content="movie">
+	<meta property="og:site_name" content="lenscoop.com">
+	<meta property="og:url" content="http://bromo.lenscoop.com/">
+	<meta property="og:title" content="Mount Bromo">
+	<meta property="og:description" content="East Java, Indonesia">
+	<meta property="og:image" content="https://dl.dropboxusercontent.com/u/276593440/bromo/pano-images/Gate.tiles/mobile_b.jpg">
+	<meta property="og:image:type" content="image/jpg">
+	<meta property="og:image:width" content="500">
+	<meta property="og:image:height" content="500">
+	<meta property="og:video" content="https://dl.dropboxusercontent.com/u/276593440/tour-viewer/tour.swf?xml=https://dl.dropboxusercontent.com/u/276593440/bromo/tour-scene.xml">
+	<meta property="og:video:width" content="640">
+	<meta property="og:video:height" content="480">
+	<meta property="og:video:type" content="application/x-shockwave-flash">
+	<meta property="og:determiner" content="a">
+
+	<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<meta http-equiv="x-ua-compatible" content="IE=edge" />
+	<style>
+		@-ms-viewport { width:device-width; }
+		@media only screen and (min-device-width:800px) { html { overflow:hidden; } }
+		html { height:100%; }
+		body { height:100%; overflow:hidden; margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#FFFFFF; background-color:#000000; }
+	</style>
+</head>
+<body>
+
+<script src="../tour-viewer/tour.js"></script>
+<script src="../tour-viewer/plugins/jaddress.min.js"></script>
+
+<div id="pano" style="width:100%;height:100%;">
+	<noscript><table style="width:100%;height:100%;"><tr style="valign:middle;"><td><div style="text-align:center;">ERROR:<br/><br/>Javascript not activated<br/><br/></div></td></tr></table></noscript>
+	<script>
+		embedpano({swf:"../tour-viewer/tour.swf", xml:"tour-scene.xml?nocache=%$random%", target:"pano", html5:"prefer", passQueryParameters:true});
+		jaddress.start();
+	</script>
+</div>
+</body>
+</html>
